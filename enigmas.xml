@@ -166,4 +166,8 @@
     <answer>poisson</answer>
     <hint>C'est un animal.</hint>
   </enigma>
+  <enigma title="Main gauche ou droite ? ">
+    <answer>Main droite</answer>
+    <hint>Choisissez la bonne main</hint>
+  </enigma>
 </enigmas>

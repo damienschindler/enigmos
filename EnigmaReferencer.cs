@@ -17,7 +17,7 @@ namespace Cpln.Enigmos
         /// <returns>L'énigme à afficher</returns>
         public static Enigma DebugEnigma()
         {
-            return new Enigma(new SwitchesEnigmaPanel(3, "LUMINEUX"), "Allumez tout");
+            return new Enigma(new MainDroiteEnigmaPanel(), "Main droite ou gauche ?");
         }
 
         /// <summary>
@@ -44,6 +44,7 @@ namespace Cpln.Enigmos
             enigmas.Add(new Enigma(new HiddenCharacterEnigmalPanel(), "Caractère caché"));
             enigmas.Add(new Enigma(new InvisibleAnwerEnigmaPanel(), "Invisible Answer"));
             enigmas.Add(new Enigma(new LettreHaute(), "Quelle est la plus haute ?"));
+            enigmas.Add(new Enigma(new MainDroiteEnigmaPanel(), "Main droite ou gauche ?"));
             enigmas.Add(new Enigma(new MemoireDesChiffresEnigmaPanel(), "Souviens toi"));
             enigmas.Add(new Enigma(new MorpionEnigmaPanel(), "Morpion"));
             enigmas.Add(new Enigma(new NbrCarresEnigmaPanel(), "Nombre de carrés"));
