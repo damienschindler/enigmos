@@ -12,7 +12,9 @@ namespace Cpln.Enigmos.Enigmas
     {
         public MainDroiteEnigmaPanel()
         {
-            
+            Panel pnlMains = new Panel();
+            //Image.FromFile(open.FileName);
+            //pnlMains.BackgroundImage =  System.Drawing.Bitmap.FromFile(yourPath);
         }
     }
 }
