@@ -12,9 +12,21 @@ namespace Cpln.Enigmos.Enigmas
     {
         public MainDroiteEnigmaPanel()
         {
-            Panel pnlMains = new Panel();
-            //Image.FromFile(open.FileName);
-            pnlMains.BackgroundImage = Image.FromFile("C:\\Users\\schindlerda\\Desktop\\Main_gauche_droite.bmp");
+            //Panel pnlMainDroite = new Panel();
+            //pnlMainDroite.BackgroundImage = Image.FromFile("C:/Users/schindlerda/Desktop/Main_gauche_droite.bmp");
+            //pnlMains.BackgroundImage = Properties.Resources.image;
+
+
+            Image test = Properties.Resources.Main_droite;
+            PictureBox pbxMainDroite = new PictureBox();
+            //pbxMainDroite.Parent = GameBoard;
+            pbxMainDroite.Image = test;
+            pbxMainDroite.Width = test.Width * 2;
+            pbxMainDroite.Height = test.Height * 2;
+            pbxMainDroite.Location = new Point(0, 90);
+            pbxMainDroite.BackColor = Color.Transparent;
+            pbxMainDroite.BringToFront();
         }
+        
     }
 }
