@@ -17,11 +17,7 @@ namespace Cpln.Enigmos
         /// <returns>L'énigme à afficher</returns>
         public static Enigma DebugEnigma()
         {
-<<<<<<< HEAD
             return new Enigma(new MainDroiteEnigmaPanel(), "Main droite ou gauche ?");
-=======
-            return null;
->>>>>>> upstream/master
         }
 
         /// <summary>

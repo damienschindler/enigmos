@@ -14,7 +14,7 @@ namespace Cpln.Enigmos.Enigmas
         {
             Panel pnlMains = new Panel();
             //Image.FromFile(open.FileName);
-            //pnlMains.BackgroundImage =  System.Drawing.Bitmap.FromFile(yourPath);
+            pnlMains.BackgroundImage = Image.FromFile("C:\\Users\\schindlerda\\Desktop\\Main_gauche_droite.bmp");
         }
     }
 }
