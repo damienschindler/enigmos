@@ -8,8 +8,14 @@ using System.Windows.Forms;
 
 namespace Cpln.Enigmos.Enigmas
 {
+    /// <summary>
+    /// L'utilisateur doit trouver la main droite qui se cache entre plusieurs mains gauche
+    /// </summary>
     public class MainDroiteEnigmaPanel : EnigmaPanel
     {
+        /// <summary>
+        /// Constructeur qui initialise une PictureBox avec l'image de la main droite
+        /// </summary>
         public MainDroiteEnigmaPanel()
         {
             //Panel pnlMainDroite = new Panel();
