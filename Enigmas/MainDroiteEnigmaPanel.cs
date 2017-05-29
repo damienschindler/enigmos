@@ -27,6 +27,9 @@ namespace Cpln.Enigmos.Enigmas
             pbxMainDroite.BackColor = Color.Transparent;
             pbxMainDroite.BringToFront();
         }
-        
+        public void pbxMainDroite_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("La réponse est : Main droite");
+        }
     }
 }
